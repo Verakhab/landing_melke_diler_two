@@ -1,8 +1,26 @@
 .map__container {
-    position: relative;
+    position:relative;
+    padding: 0;
+    height: 0;
+    overflow:hidden;
+    height: 650px;
 }
 
-.map__img {
+@media screen and (max-width: 1024px) {
+    .map__container {
+        height: 420px;
+    }
+}
+
+.map__container iframe,.map__container object,.map__container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+/* .map__img {
     object-fit: cover;
     object-position: 50%;
     width: 100%;
@@ -64,4 +82,4 @@
     font-size: 22px;
     line-height: 1.2;
     margin-top: 0;
-}
+} */

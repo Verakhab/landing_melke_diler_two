@@ -47,6 +47,10 @@
     transition: all 0.4s;
 }
 
+.slider-systems-melke__slide-img_lite-seven, .slider-systems-melke__slide-img_art, .slider-systems-melke__slide-img_evo, .slider-systems-melke__slide-img_lite-six {
+    height: 384px;
+}
+
 .slide-systems-melke-active .slider-systems-melke__slide-img {
     position: relative;
     top: 25px;

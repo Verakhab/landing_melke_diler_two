@@ -4,6 +4,7 @@ export default () => {
     const swiperMelke = new Swiper('.slider-systems-melke', {
         modules: [Navigation],
         slidesPerView: 'auto',
+        loop: true,
         spaceBetween: 20,
         initialSlide: 1,
         slideActiveClass: 'slide-systems-melke-active',
