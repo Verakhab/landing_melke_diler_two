@@ -1,0 +1,122 @@
+.header {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        background-color: transparent;
+        position: absolute;
+        width: 100%;
+    }
+}
+
+.header__container {
+    max-width: 1120px;
+    padding: 30px 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__container {
+        padding: 30px 38px;
+    }
+}
+
+.header__logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 337px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__logo-wrapper {
+        min-width: 195px;
+    }
+}
+
+.header__dot {
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    border: 4.5px solid #12020A;
+    background-color: #12020A;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__dot {
+        display: none;
+    }
+}
+
+.header__phone-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__phone-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60px;
+    }
+}
+
+.header__phone {
+    text-decoration: none;
+    font-size: 48px;
+    line-height: 1.11;
+    color: #12020A;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__phone {
+        display: none;
+    }
+}
+
+.header__signature {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__signature {
+        display: none;
+    }
+}
+
+.header__logo-min {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__logo-large {
+        display: none;
+    }
+    .header__logo-min {
+        display: block;
+    }
+}
+
+.header__phone-img {
+    display: none;
+}
+
+.header__burger-img {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__phone-img {
+        display: block;
+    }
+    
+    .header__burger-img {
+        display: block;
+    }
+}

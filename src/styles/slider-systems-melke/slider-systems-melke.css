@@ -1,0 +1,180 @@
+.systems-melke {
+    margin: 83px 0;
+}
+
+@media screen and (max-width: 1225px) {
+    .systems-melke {
+        margin: 72px 0;
+    }
+}
+
+.systems-melke__container {
+    text-align: center;
+    max-width: 1120px;
+    padding: 0 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.systems-melke__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+@media screen and (max-width: 1225px) {
+    .systems-melke__title {
+        font-size: 32px;
+    }
+}
+
+.systems-melke__desc {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 44px;
+}
+
+.slider-systems-melke__slide {
+    max-width: 265px;
+}
+
+.slider-systems-melke__slide-img {
+    position: relative;
+    top: 45px;
+    transition: all 0.4s;
+}
+
+.slide-systems-melke-active .slider-systems-melke__slide-img {
+    position: relative;
+    top: 25px;
+    transition: all 0.4s;
+}
+
+.slider-systems-melke__desc {
+    background-color: #fff;
+    padding: 30px 20px;
+    position: relative;
+    text-align: left;
+}
+
+.slider-systems-melke__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.slider-systems-melke__signature {
+    font-size: 18px;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.slider-systems-melke__prop {
+    font-size: 12px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.slider-systems-melke__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-systems-melke__indicator {
+    display: flex;
+    font-size: 12px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.slider-systems-melke__indicator-item {
+    width: 10px;
+    height: 10px;
+    background-color: #B13675;
+    margin-left: 10px;
+}
+
+.slider-systems-melke__price {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.slider-systems-melke__item:last-of-type {
+    margin-bottom: 22px;
+}
+
+.slider-systems-melke__indicator-item:first-child {
+    margin-left: 0;
+}
+
+.slider-systems-melke__indicator-item:last-child {
+    background: rgba(177, 54, 117, 0.2);
+}
+
+.swiper-button-prev:after {
+    content: '';
+}
+
+.swiper-button-next:after {
+    content: '';
+}
+
+.slider-systems-melke__prev {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1225px) {
+    .slider-systems-melke__prev {
+        width: 30px;
+        height: 30px;
+        top: 64%;
+    }
+}
+
+.slider-systems-melke__next {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1225px) {
+    .slider-systems-melke__next {
+        width: 30px;
+        height: 30px;
+        top: 64%;
+    }
+}
+
+.slider-systems-melke__prev-arrow-min {
+    display: none;
+}
+
+.slider-systems-melke__next-arrow-min {
+    display: none;
+}
+
+@media screen and (max-width: 1225px) {
+    .slider-systems-melke__prev-arrow-large {
+        display: none;
+    }
+    
+    .slider-systems-melke__next-arrow-large {
+        display: none;
+    }
+    .slider-systems-melke__prev-arrow-min {
+        display: block;
+    }
+    
+    .slider-systems-melke__next-arrow-min {
+        display: block;
+    }
+}

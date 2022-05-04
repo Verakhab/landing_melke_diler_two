@@ -1,0 +1,70 @@
+.glazing-house {
+    margin-bottom: 113px;
+}
+
+.glazing-house__container {
+    max-width: 1120px;
+    padding: 0 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .glazing-house__container {
+        padding: 0;
+    }
+}
+
+.glazing-house__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.35;
+}
+
+@media screen and (max-width: 1024px) {
+    .glazing-house__title {
+        font-size: 32px;
+        margin-top: 94px;
+        padding: 0 38px;
+    }
+}
+
+.slider-glazing-house__slide {
+    max-width: 265px;
+    height: auto;
+}
+
+.slider-glazing-house__desc-block {
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    bottom: 5px;
+    height: 41.2%;
+}
+
+.slider-glazing-house__desc-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.35;
+    margin: 0;
+}
+
+.slider-glazing-house__prop-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-glazing-house__desc-prop {
+    font-size: 18px;
+    line-height: 1.35;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.slider-glazing-house__desc-indicator {
+    font-size: 18px;
+    line-height: 1.35;
+    margin-top: 5px;
+    margin-bottom: 0;
+}

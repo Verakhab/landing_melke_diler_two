@@ -1,0 +1,145 @@
+.benefit {
+    text-align: center;
+}
+
+.benefit__container {
+    max-width: 1120px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1225px) {
+    .benefit__container {
+        padding: 0;
+    }
+}
+
+.benefit__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1225px) {
+    .benefit__title {
+        font-size: 32px;
+    }
+}
+
+.benefit__quest {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.benefit__desc {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 auto 30px;
+    max-width: 740px;
+}
+
+@media screen and (max-width: 1225px) {
+    .benefit__desc {
+        padding: 0 38px;
+    }
+}
+
+.benefit__timer {
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 1225px) {
+    .benefit__timer {
+        margin-bottom: 50px;
+    }
+}
+   
+.benefit__timer-number {
+    width: 62px;
+    height: 60px;
+    margin-left: 10px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+}
+
+@media screen and (max-width: 1225px) {
+    .benefit__timer-number {
+        width: 61px;
+    }
+}
+
+.benefit__timer-number:first-child {
+    margin-left: 0;
+}
+   
+.benefit__timer-time {
+    padding: 16px 14.4px 12px;
+    background: #B13675;
+    display: inline-block;
+}
+   
+.benefit__timer-text {
+    display: block;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #12020A;
+}
+
+.benefit__advantages-wrapper {
+    margin-bottom: 63px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1225px) {
+    .benefit__advantages-wrapper {
+        flex-wrap: unset;
+    }
+}
+
+.benefit__advantages-slide {
+    width: 265px;
+    min-height: 210px;
+    background-color: #fff;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    height: unset;
+}
+
+.benefit__advantages-slide:nth-of-type(4n+1) {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 1225px) {
+    .benefit__advantages-slide {
+        margin-left: unset;
+    }
+}
+
+.benefit__advantages-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.benefit__advantages-desc {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+}

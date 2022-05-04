@@ -1,1 +1,25 @@
 @import './vendor/normalize.css';
+@import "../node_modules/swiper/swiper.min.css";
+@import "../node_modules/swiper/modules/navigation/navigation.min.css";
+@import './vendor/fonts/fonts.css';
+@import './styles/header/header.css';
+@import './styles/header-desc/header-desc.css';
+@import './styles/slider-systems-melke/slider-systems-melke.css';
+@import './styles/put/put.css';
+@import './styles/glazing/glazing.css';
+@import './styles/benefit/benefit.css';
+@import './styles/options/options.css';
+@import './styles/find-cost/find-cost.css';
+@import './styles/glazing-balcony/glazing-balcony.css';
+@import './styles/glazing-house/glazing-house.css';
+@import './styles/about/about.css';
+@import './styles/climatherm/climatherm.css';
+@import './styles/our-advantages/our-advantages.css';
+@import './styles/map/map.css';
+@import './styles/footer/footer.css';
+
+body {
+    font-family: PF Isotext Pro, Arial, Helvetica, sans-serif;
+    color: #12020A;
+    background-color: #EDEDE8;
+}

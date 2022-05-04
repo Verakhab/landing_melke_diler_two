@@ -1,0 +1,146 @@
+.header-desc {
+    color: #FFFFFF;
+    position: relative;
+}
+
+.header-desc__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1120px;
+    padding: 180px 50px 110px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-desc__container {
+        flex-direction: column;
+        padding: 125px 0 0;
+        align-items: unset;
+    }
+}
+
+.header-desc__img {
+    object-fit: cover;
+    object-position: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #33c5f3;
+}
+
+.header-desc__description {
+    font-size: 22px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.header-desc__title {
+    font-size: 64px;
+    line-height: 1.1;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-desc__title {
+        font-size: 48px;
+    }
+}
+
+.header-desc__wrapper-column {
+    max-width: 550px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-desc__wrapper-column {
+        max-width: 320px;
+        padding: 0 38px;
+        margin-bottom: 50px;
+    }
+}
+
+.header-desc__wrapper-desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 550px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-desc__wrapper-desc {
+        display: none;
+    }
+}
+
+.header-desc__advantages {
+    max-width: 265px;
+}
+
+.header-desc__advantages-title {
+    font-size: 22px;
+    line-height: 0.9;
+}
+
+.header-desc__advantages-description {
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+
+.header-desc__form-container {
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    color: #12020A;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-desc__form-container {
+        padding: 38px;
+    }
+}
+
+.header-desc__form-title {
+    font-size: 22px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.header-desc__form-desc {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.header-desc__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-desc__form-tel {
+    height: 31px;
+    border: none;
+    border-bottom: 1px solid #12020A;
+    margin-bottom: 19px;
+}
+
+.header-desc__form-name {
+    height: 31px;
+    border: none;
+    border-bottom: 1px solid #12020A;
+    margin-bottom: 29px;
+}
+
+.header-desc__form-button {
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 14px;
+    border: 2px solid #12020A;
+}

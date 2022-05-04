@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'PF Isotext Pro';
+    src: url('PFIsotextPro-Bold.eot');
+    src: local('PFIsotextPro-Bold'),
+        url('PFIsotextPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PFIsotextPro-Bold.woff2') format('woff2'),
+        url('PFIsotextPro-Bold.woff') format('woff'),
+        url('PFIsotextPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Isotext Pro';
+    src: url('PFIsotextPro-LightItalic.eot');
+    src: local('PFIsotextPro-LightItalic'),
+        url('PFIsotextPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFIsotextPro-LightItalic.woff2') format('woff2'),
+        url('PFIsotextPro-LightItalic.woff') format('woff'),
+        url('PFIsotextPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Isotext Pro';
+    src: url('PFIsotextPro-Regular.eot');
+    src: local('PFIsotextPro-Regular'),
+        url('PFIsotextPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PFIsotextPro-Regular.woff2') format('woff2'),
+        url('PFIsotextPro-Regular.woff') format('woff'),
+        url('PFIsotextPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Isotext Pro';
+    src: url('PFIsotextPro-Light.eot');
+    src: local('PFIsotextPro-Light'),
+        url('PFIsotextPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('PFIsotextPro-Light.woff2') format('woff2'),
+        url('PFIsotextPro-Light.woff') format('woff'),
+        url('PFIsotextPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Isotext Pro';
+    src: url('PFIsotextPro-Italic.eot');
+    src: local('PFIsotextPro-Italic'),
+        url('PFIsotextPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PFIsotextPro-Italic.woff2') format('woff2'),
+        url('PFIsotextPro-Italic.woff') format('woff'),
+        url('PFIsotextPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Isotext Pro';
+    src: url('PFIsotextPro-BoldItalic.eot');
+    src: local('PFIsotextPro-BoldItalic'),
+        url('PFIsotextPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFIsotextPro-BoldItalic.woff2') format('woff2'),
+        url('PFIsotextPro-BoldItalic.woff') format('woff'),
+        url('PFIsotextPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+

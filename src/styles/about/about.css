@@ -1,0 +1,143 @@
+.about {
+    margin-bottom: 120px;
+}
+
+.about__container {
+    max-width: 1120px;
+    padding: 0 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1225px) {
+    .about__container {
+        padding: 0;
+    }
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1225px) {
+    .about__title {
+        font-size: 32px;
+    }
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1225px) {
+    .about__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.about__block-one {
+    background-color: #B13675;
+    padding: 50px 81.5px;
+    color: #fff;
+    text-align: left;
+}
+
+@media screen and (max-width: 1225px) {
+    .about__block-one {
+        text-align: center;
+        padding: 50px 20px;
+    }
+}
+
+.about__desc {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.35;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+@media screen and (max-width: 1225px) {
+    .about__desc {
+        font-size: 32px;
+        margin-bottom: 34px;
+    }
+}
+
+.about__desc-percent {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.35;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1225px) {
+    .about__desc-percent {
+        font-size: 32px;
+    }
+}
+
+.about__wrapper-block {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 360px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1225px) {
+    .about__wrapper-block {
+        margin-top: 30px;
+        justify-content: space-evenly;
+    }
+}
+
+.about__block-two {
+    background-color: #fff;
+    width: 170px;
+    height: 170px;
+    padding: 42px 34px 33px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+@media screen and (max-width: 1225px) {
+    .about__block-two {
+        width: 140px;
+        height: 170px;
+        padding: 42px 15px 33px 18px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+}
+
+.about__block-two:nth-of-type(3) {
+    margin-top: 20px;
+}
+
+.about__block-two:last-of-type {
+    margin-top: 20px;
+}
+
+.about__block-two-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.about__block-two-desc {
+    font-size: 12px;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 1225px) {
+    .about__img {
+        display: none;
+    }
+}

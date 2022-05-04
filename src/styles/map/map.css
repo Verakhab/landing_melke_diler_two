@@ -1,0 +1,67 @@
+.map__container {
+    position: relative;
+}
+
+.map__img {
+    object-fit: cover;
+    object-position: 50%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .map__img {
+        height: 420px;
+    }
+}
+
+.map__info {
+    max-width: 360px;
+    background-color: #B13675;
+    padding: 45px 55px 45px 33px;
+    color: #fff;
+    position: absolute;
+    right: 160px;
+    top: 80px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .map__info {
+        right: unset;
+        top: unset;
+        position: unset;
+        max-width: 100%;
+        height: 450px;
+        padding: 42px 33px;
+    }
+}
+
+.map__info-tel {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.map__info-email {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.map__info-adress {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.map__info-about {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-top: 0;
+}

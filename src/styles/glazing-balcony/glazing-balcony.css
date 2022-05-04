@@ -1,0 +1,79 @@
+.glazing-balcony__container {
+    max-width: 835px;
+    padding: 0 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1225px) {
+    .glazing-balcony__container {
+        padding: 0;
+    }
+}
+
+.slider-glazing-balcony__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 934px) {
+    .slider-glazing-balcony__wrapper {
+        flex-wrap: unset;
+        justify-content: unset;
+    }
+}
+
+.glazing-balcony__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    margin: 100px 0 25px 0;
+}
+
+@media screen and (max-width: 1225px) {
+    .glazing-balcony__title {
+        font-size: 32px;
+    }
+}
+
+.glazing-balcony__desc {
+    font-size: 18px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1225px) {
+    .glazing-balcony__desc {
+        padding: 0 38px;
+    }
+}
+
+.slider-glazing-balcony__slide {
+    max-width: 265px;
+    text-align: left;
+    margin-top: 45px;
+}
+
+.slider-glazing-balcony__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.35;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.slider-glazing-balcony__desc {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.slider-glazing-balcony__price {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.35;
+    color: #B13675;
+}

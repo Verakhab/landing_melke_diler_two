@@ -1,0 +1,206 @@
+.find-cost {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+@media screen and (max-width: 1225px) {
+    .find-cost {
+        padding: 62px 0;
+    }
+}
+
+.find-cost_two {
+    margin-bottom: 113px;
+}
+
+@media screen and (max-width: 1225px) {
+    .find-cost_two {
+        margin-bottom: 71px;
+    }
+}
+
+.find-cost__container {
+    max-width: 1120px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1225px) {
+    .find-cost__container {
+        padding: 0 38px;
+    }
+}
+
+.find-cost__wrapper-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1225px) {
+    .find-cost__wrapper-column {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.find-cost__column-one {
+    max-width: 550px;
+}
+
+.find-cost__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1225px) {
+    .find-cost__title {
+        font-size: 32px;
+    }
+}
+
+.find-cost__title_two {
+    margin-bottom: 5px;
+}
+
+.find-cost__title-desc {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.35;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.find-cost__title-desc_two {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 24px;
+}
+
+.find-cost__desc {
+    font-size: 18px;
+    line-height: 1.1;
+    margin: 0;
+}
+
+@media screen and (max-width: 1225px) {
+    .find-cost__desc {
+        margin-bottom: 45px;
+    }
+}
+
+.find-cost__column-two {
+    width: 41%;
+}
+
+@media screen and (max-width: 1225px) {
+    .find-cost__column-two {
+        width: 100%;
+    }
+}
+
+.find-cost__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.find-cost__tel {
+    border: none;
+    border-bottom: 1px solid #12020A;
+    width: 99%;
+    height: 31px;
+    margin-bottom: 40px;
+}
+
+.find-cost__name {
+    border: none;
+    border-bottom: 1px solid #12020A;
+    width: 99%;
+    height: 31px;
+    margin-bottom: 30px;
+}
+
+.find-cost__name_two {
+    margin-bottom: 50px;
+}
+
+.input__wrapper {
+    width: 22%;
+    position: relative;
+}
+
+.input__file-button-text {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.input__file-icon {
+    cursor: pointer;
+}
+
+.find-cost__input-file {
+    opacity: 0;
+    position: absolute;
+    width: 7%;
+}
+
+.find-cost__input-file-label {
+    color: rgba(18, 2, 10, 0.6);
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.find-cost__button {
+    max-width: 220px;
+    height: 50px;
+    border: 2px solid #12020A;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1;
+}
+
+@media screen and (max-width: 1225px) {
+    .find-cost__button {
+        max-width: unset;
+        width: 100%;
+    }
+}
+
+.find-cost__wrapper-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1225px) {
+    .find-cost__wrapper-block {
+        justify-content: center;
+    }
+}
+
+.find-cost__item {
+    max-width: 250px;
+}
+
+.find-cost__item-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.find-cost__item-desc {
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1225px) {
+    .find-cost__item-desc {
+        margin-bottom: 55px;
+    }
+}

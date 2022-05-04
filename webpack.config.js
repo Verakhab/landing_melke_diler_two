@@ -88,7 +88,7 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        include: path.resolve(__dirname, 'src/styles'),
+        include: path.resolve(__dirname, 'src'),
         use: [ isDev ?
           { loader: 'style-loader' } :
           { loader: MiniCssExtractPlugin.loader },

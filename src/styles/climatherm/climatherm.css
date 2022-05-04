@@ -1,0 +1,93 @@
+.climatherm {
+    margin-bottom: 110px;
+}
+
+@media screen and (max-width: 1024px) {
+    .climatherm {
+        margin-bottom: 73px;
+    }
+}
+
+.climatherm__container {
+    max-width: 1120px;
+    padding: 0 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .climatherm__container {
+        padding: 0 38px;
+    }
+}
+
+.climatherm__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+    .climatherm__title {
+        font-size: 32px;
+    }
+}
+
+.climatherm__desc {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.climatherm__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .climatherm__wrapper {
+        flex-direction: column-reverse;
+    }
+}
+
+.climatherm__column-one {
+    text-align: left;
+    max-width: 360px;
+}
+
+@media screen and (max-width: 1024px) {
+    .climatherm__column-one {
+        text-align: center;
+    }
+}
+
+.climatherm__item-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.climatherm__item-desc {
+    font-size: 18px;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.climatherm__img-min {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .climatherm__img {
+        display: none;
+    }
+    .climatherm__img-min {
+        display: block;
+        margin-bottom: 62px;
+    }
+}
