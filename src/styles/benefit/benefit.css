@@ -72,6 +72,10 @@
     line-height: 1;
 }
 
+.benefit__timer-number:nth-child(2) {
+    margin-left: 27px;
+}
+
 @media screen and (max-width: 1225px) {
     .benefit__timer-number {
         width: 61px;

@@ -9,7 +9,8 @@
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode=production",
-    "dev": "cross-env NODE_ENV=development webpack s --mode=development --progress --open"
+    "dev": "cross-env NODE_ENV=development webpack s --mode=development --progress --open",
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -43,6 +44,7 @@
     "css-minimizer-webpack-plugin": "^3.4.1",
     "cssnano": "^5.0.16",
     "dotenv": "^16.0.0",
+    "gh-pages": "^4.0.0",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
     "image-minimizer-webpack-plugin": "^3.2.3",
