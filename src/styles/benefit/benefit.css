@@ -99,6 +99,12 @@
     font-size: 12px;
     line-height: 1.2;
     color: #12020A;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.benefit__timer-text_first {
+    margin-left: 17px;
 }
 
 .benefit__advantages-wrapper {
